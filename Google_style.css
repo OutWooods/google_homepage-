@@ -1,0 +1,156 @@
+/* This is the header and footer css  */
+.bar {
+  display: inline-block;
+  width: 99%;
+  font-family: arial, sans-serif;
+  color: #fff;
+}
+
+.bar a{
+	color: #666;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+.bar a:hover {
+	text-decoration: underline;
+}
+
+.top_bar div {
+		color: red;
+	background-color: yellow;
+	height: 50px;
+	margin: 5px;
+}
+
+.right_bar {
+	float: right;
+
+}
+.left_bar {
+	float: left;
+}
+
+.bar div {
+	display: inline;
+}
+.bar div ul {
+	display: inline;
+}
+
+.bar div ul li{
+     margin : 0px 10px;
+     padding: 0 5px;
+     list-style-type: none;
+     display: inline;
+}
+
+
+.alarm{
+	height:50px;
+}
+
+.alarm div {
+   background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+   width: 20px;
+   height:50px;
+   border-radius: 50%;
+  white-space: nowrap;
+  background-color: #fff;
+  background-position: -100px, -24px;
+
+}
+
+.bottom_bar {
+	position: absolute;
+	bottom: 0;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	height: 35px;
+}
+
+.bottom_bar div {
+	margin: 0px 0px;
+	padding: 5px 0;
+}
+
+.left_bar ul {
+	padding: 10px 10px;
+}
+
+/* This is the header and footer css  */
+.search {
+	width: 99%;
+	margin: 125px 0px;
+}
+
+#logo {
+	display: block;
+	margin: 0px auto;
+	padding: 0px 0px 10px 0px;
+	background: url("https://www.google.co.uk/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png") no-repeat;
+	background-size: 272px 92px;
+	height: 92px;
+	width: 272px;
+}
+#logo div 
+   { position: relative;
+   	padding: 0px;
+   	 color:#4285f4;
+   	 font:16px/16px  arial, sans-serif;
+   	 left: 215px;
+   	 top: 76px;
+
+   }
+#terms {
+	display: block;
+	margin: 20px auto;
+	height: 50px;
+	width: 592px;
+}
+#terms input {
+	width: 592px;
+	background-color: white;
+	border-style: none;
+	box-shadow: rgba(0,0,0,0.16) 0px 2px 2px 0px ,  rgba(0,0,0,0.08) 0px 0px 0px 1px;
+	height: 40px;
+}
+.finder { display: block;
+	margin: 10px auto;
+	padding: 4px 0px 0px 25px;
+	height: 45px;
+	width: 312px;}
+
+.finder input {
+	display: inline;
+	padding: 10px;
+	color: #757575;
+	cursor: default;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight:bold;
+    text-align: center;
+	margin: 0px 10px;
+	border-radius: 0;
+	background-color: #f8f8f8;
+	border-radius: 2px;
+	border: 1px solid #f2f2f2;
+}
+
+.factoid {
+	display: block;
+	margin: 0px auto;
+	padding: 20px;
+	width: 542px;
+    font-size: 12px;
+    text-align: center;
+  }
+}

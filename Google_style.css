@@ -1,4 +1,10 @@
 /* This is the header and footer css  */
+
+body {
+	margin-top: 0px;
+	width:98%;
+	height: 100%;
+}
 .bar {
   display: inline-block;
   width: 99%;
@@ -24,12 +30,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-.top_bar div {
-		color: red;
-	background-color: yellow;
-	height: 50px;
-	margin: 5px;
-}
 
 .right_bar {
 	float: right;
@@ -37,37 +37,89 @@ a:hover {
 }
 .left_bar {
 	float: left;
+	padding-left: 10px;
 }
 
 .bar div {
 	display: inline;
 }
+
 .bar div ul {
 	display: inline;
 }
-
 .bar div ul li{
+	cursor: pointer;
      margin : 0px 10px;
      padding: 0 5px;
-     list-style-type: none;
-     display: inline;
+     display: inline-block;
+}
+ 
+/* Top bar only */
+.top_bar {
+	position: absolute;
+	top: 6px;
+	right: 23px;
+}
+
+.top_bar div {
+	height: 32px;
+	margin: 0px 2px;
+}
+
+.top_bar div ul {
+	height: 32px;
+}
+
+.top_bar div ul li {
+     margin: 10px 0;
+     height: 30px;
+     display: inline-block;
 }
 
 
-.alarm{
-	height:50px;
+#grid {
+background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+background-size: 528px 68px;
+background-position: 26% 90%;
+opacity: .55;
+height: 20px;
+width: 20px;
+margin: 0 2px;
+padding-left: 10px;
+padding-right: 19px;
 }
 
-.alarm div {
-   background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
-   width: 20px;
-   height:50px;
+#grid:hover {
+opacity: 1;	
+}
+
+
+#alarm{
+   background-color: #737373;
+   background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+   width: 10px;
+   height: 20px;
    border-radius: 50%;
-  white-space: nowrap;
-  background-color: #fff;
-  background-position: -100px, -24px;
+   white-space: nowrap;
+   background-position: 38.2% 42%;
+}  
 
+#alarm:hover {
+	background-color: black;
 }
+
+
+#account {
+   background-image: url("https://lh3.googleusercontent.com/-a0mxAMM974A/AAAAAAAAAAI/AAAAAAAAAAA/ANQ0kf5NuElfRZ17CGzzjHoUr7StgB2B0w/s32-c-mo/photo.jpg");
+   border-radius: 50%;
+   height: 25px;
+   width: 22px;
+   margin-left: 10px; 
+   padding-top: 6px;
+}
+
+
+/* Bottom bar */
 
 .bottom_bar {
 	position: absolute;
@@ -86,10 +138,10 @@ a:hover {
 	padding: 10px 10px;
 }
 
-/* This is the header and footer css  */
+/* This is the search box  */
 .search {
 	width: 99%;
-	margin: 125px 0px;
+	margin: 200px 0 0 0;
 }
 
 #logo {
@@ -148,7 +200,6 @@ a:hover {
     font-weight:bold;
     text-align: center;
 	margin: 0px 10px;
-	border-radius: 0;
 	background-color: #f8f8f8;
 	border-radius: 2px;
 	border: 1px solid #f2f2f2;

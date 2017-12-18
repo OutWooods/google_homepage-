@@ -1,9 +1,9 @@
-# Google Homepage Project
+# Google Homepage Project (for the [Odin project](https://www.theodinproject.com/))
 
 ## About
-This is a task the [Odin project](https://www.theodinproject.com/)\* from for was to make a copy of the google homepage (without the search functionality). It uses only HTML and CSS, and was built by looking at the original google page using dev tools. This was also my first attempt at using git on a project (apologies for the commit history...)
+This is a task was to make a copy of the google homepage (without the search functionality). It uses only HTML and CSS, and was built by looking at the original google page using dev tools. This was also my first attempt at using git on a project (apologies for the commit history...)
 
-\*A free online course teacing you web design (which I would highly reccomend). Its well structured, open source and totally free.  
+This task was part of the [Odin project](https://www.theodinproject.com/)\* a free online course teacing you web design (which I would highly reccomend). Its well structured, open source and totally free.  
 
 ## How to use
 

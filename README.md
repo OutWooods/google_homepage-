@@ -3,7 +3,7 @@
 ## About
 This is a task was to make a copy of the google homepage (without the search functionality). It uses only HTML and CSS, and was built by looking at the original google page using dev tools. This was also my first attempt at using git on a project (apologies for the commit history...)
 
-This task was part of the [Odin project](https://www.theodinproject.com/)\* a free online course teacing you web design (which I would highly reccomend). Its well structured, open source and totally free.  
+This task was part of the [Odin project](https://www.theodinproject.com/) a free online course teacing you web design (which I would highly reccomend). Its well structured, open source and totally free.  
 
 ## How to use
 
